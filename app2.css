@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+
+html {background-color:fcada0}
+
+body {
+min-height:100%;
+margin:0;
+
+	
+}
+ul {	
+  list-style-type: none;
+  margin:0PX;
+  padding:0PX;
+  overflow: hidden;
+  background-color: #333;
+  height:50px;
+  width:100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+ 
+}
+
+li a:hover {
+  background-color: #88c1d0;
+}
+
+h1 {
+	text-align:center;
+	margin-top:30px;
+	color:red;
+	background-color:#333;
+}
+
+
+.p0{
+	text-align:center;
+	font-size: 17;
+	text-decoration: underline blue ;
+	font-weight:bold;
+	border: 4mm ridge rgba(170, 50, 220, .6);
+	border-color:9ef6b9;
+	background-color:black;
+	color:white;
+	
+}
+	
+	.p1 {
+		text-align: center;
+		font-family: 'Concert One', cursive;
+		color:white;
+
+
+
+	}
+
+ .p2 {
+	 text-align:center;
+	 font-family: 'Concert One', cursive;
+	 color:white;
+ }
+ 
+ 
+ .p3 {
+	 font-family: 'Concert One', cursive;
+	 color:white;
+	 text-align:center;
+ }
+	 
+	 
+	 
+table{
+	
+	border-width:15px;
+	border-style:double ;
+	background-color:black;
+}
+
+footer {
+
+background:#9ef6b9;
+position:absolute;
+top:1000px;
+left:0px;
+padding-top:1px;
+padding-bottom:1px;
+height:55px;
+width:100%;
+font-size:20;
+text-align:center;
+font-weight:bold;
+font-family: 'Bangers', cursive;
+display:flex;
+flex-flow: row nowrap;
+justify-content:space-between;
+}
+

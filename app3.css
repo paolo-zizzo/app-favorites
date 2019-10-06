@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC&display=swap');
+ html {
+	 background-color:fbf67a;
+	 
+	 
+	 
+ }
+body {
+	
+	margin:0;
+}
+
+
+ul {
+	
+	
+  list-style-type: none;
+  margin:0PX;
+  padding:0PX;
+  overflow: hidden;
+  background-color: #333;
+  height:50px;
+  width:100%;
+}
+
+	
+
+
+
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+ 
+}
+
+
+li a:hover {
+  background-color: #88c1d0;
+}
+
+
+
+footer {
+
+background:#9ef6b9;
+position:absolute;
+top:1000px;
+left:0px;
+padding-top:1px;
+padding-bottom:1px;
+height:55px;
+width:100%;
+font-size:20;
+text-align:center;
+font-weight:bold;
+font-family: 'Bangers', cursive;
+display:flex;
+flex-flow: row nowrap;
+justify-content:space-between;
+}
+
+
+.main {
+	
+		margin-top:200px;
+		display:flex;
+		flex-flow: row ;
+		justify-content: space-evenly;;
+	}
+	
+	
+text {
+	position:absolute;
+	top:220px;
+	left:30px;
+	text-align:center;
+	font-size:20;
+}
+		
+	
+	
+	
+
+h1 { text-align:center;
+border-style: inset;
+border-width:10px;
+background-image: url("db.jpg");
+border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+height:100px;
+color:white;
+width:500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.t1 {
+
+	margin-top:500px;
+	text-align: center;
+	animation: Test 1s infinite;
+	font-size:17;
+	color: red;
+    font-family: 'Holtwood One SC', serif;
+	text-align:center;
+	border: thick double #32a1ce;
+	border-width:20px;
+}
+@keyframes Test {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+	
+	
+	
+
+
